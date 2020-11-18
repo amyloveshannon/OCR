@@ -1,6 +1,4 @@
-#Tesseract OCR 
-
-Tesseract Optical Character Recognition
+#Tesseract Optical Character Recognition
 
 tesseract OCR數字辨識、文字辨識
 一般電腦字體打出來的阿拉伯數字OK，液晶的7-segment數字辨識不出來，辨識率極低，3張只成功一張，其他都辨識成字(英文字、中文字)
