@@ -2,7 +2,10 @@ import cv2
 import time
 import datetime
  
-cap=cv2.VideoCapture(0) #0表示選擇電腦第1台攝影機
+cap = cv2.VideoCapture(0) #0表示選擇電腦第1台攝影機
+ratio = cap.get(cv2.CAP_PROP_FRAME_WIDTH) / cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+print('ratio: ')
+print(ratio)
 today = datetime.datetime.now()
 i=0
 while(1):
