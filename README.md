@@ -7,5 +7,5 @@ tesseract OCR數字辨識、文字辨識
 
 解決方法: 1.自己訓練7-segment數字模型  2. 換一個辨識方式，不要用tesseract
 
-
-
+///
+capturePic.py 可成功開啟相機拍照，按下's'儲存照片；'q'關閉相機。
